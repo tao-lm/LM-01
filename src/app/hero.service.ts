@@ -17,7 +17,7 @@ export class HeroService {
   // }
 
   // getHeroes(): Observable<Hero[]> {
-  //   return of(HEROES);
+  //   return of(HEROES);//返回一个 Observable<Hero[]>
   // }
 
   getHeroes(): Observable<Hero[]> {
